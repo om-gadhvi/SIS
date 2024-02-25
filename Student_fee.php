@@ -3,31 +3,30 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible"
-		content="IE=edge">
-	<meta name="viewport"
-		content="width=device-width,
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,
 				initial-scale=1.0">
 	<title>Student_fee</title>
-	<link rel="stylesheet"
-		href="Student.css">
-	<link rel="stylesheet"
-		href="admin0.css">
+	<link rel="stylesheet" href="Student.css">
+	<link rel="stylesheet" href="admin0.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		
+
 	<style>
 		table {
-		  border-collapse: collapse;
-		  width: 100%;
+			border-collapse: collapse;
+			width: 100%;
 		}
-		
-		th, td {
-		  text-align: left;
-		  padding: 8px;
+
+		th,
+		td {
+			text-align: left;
+			padding: 8px;
 		}
-		
-		tr:nth-child(even) {background-color: #f2f2f2;}
-		</style>
+
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+	</style>
 </head>
 
 <body>
@@ -43,23 +42,23 @@
 				id="menuicn"
 				alt="menu-icon"> -->
 
-				<div>
-			<a target="_blank" href="./RazorPay/payment-form.php"><button class="bn">Payment</button></a>
-		
-			<a target="_blank" href="./notice/view_notice.php"><button class="btttn">Notice</button></a>
+			<div>
+				<a target="_blank" href="./RazorPay/payment-form.php"><button class="bn">Payment</button></a>
+
+				<a target="_blank" href="./notice/view_notice.php"><button class="btttn">Notice</button></a>
 			</div>
 		</div>
 
-		
+
 		<a href="Home.php"><button class="btn"><i class="fa fa-home"></i></button></a>
-		
+
 
 
 		<!-- <div class="searchbar"> -->
-			<!-- <input type="text" -->
-				<!-- placeholder="Search"> -->
-			<!-- <div class="searchbtn"> -->
-			<!-- <img src=
+		<!-- <input type="text" -->
+		<!-- placeholder="Search"> -->
+		<!-- <div class="searchbtn"> -->
+		<!-- <img src=
 "image/Home button.png"
 					class="icn srchicn"
 					alt="search-icon">
@@ -72,61 +71,54 @@
 		<div class="navcontainer">
 			<nav class="nav">
 				<div class="nav-upper-options">
-					<a href="student_profile.php"><div class="nav-option option">
-						<img src=
-"image/Profil_icon.png"
-						    class="nav-img"
-						    alt="profile">
-						<h3 class="menutext"> Profile</h3>
-					</div></a>
+					<a href="student_profile.php">
+						<div class="nav-option option">
+							<img src="image/Profil_icon.png" class="nav-img" alt="profile">
+							<h3 class="menutext"> Profile</h3>
+						</div>
+					</a>
 
-					<a href="Student_library.php"><div class="nav-option option">
-						<img src=
-"image/Library_icon.png"
-							class="nav-img"
-							alt="articles">
-						<h3 class="menutext">Library</h3>
-					</div></a>
+					<a href="Student_library.php">
+						<div class="nav-option option">
+							<img src="image/Library_icon.png" class="nav-img" alt="articles">
+							<h3 class="menutext">Library</h3>
+						</div>
+					</a>
 
-					<a href="Student_Result.php"><div class="nav-option option">
-						<img src=
-"image/Result_icon.png"
-							class="nav-img"
-							alt="report">
-						<h3 class="menutext">Result</h3>
-					</div></a>
+					<a href="Student_Result.php">
+						<div class="nav-option option">
+							<img src="image/Result_icon.png" class="nav-img" alt="report">
+							<h3 class="menutext">Result</h3>
+						</div>
+					</a>
 
-					<a href="Student_fee.php"><div class="nav-option option4">
-						<img src=
-"image/Fees_icon.png"
-							class="nav-img"
-							alt="institution">
-						<h3> Fees</h3>
-					</div></a>
+					<a href="Student_fee.php">
+						<div class="nav-option option4">
+							<img src="image/Fees_icon.png" class="nav-img" alt="institution">
+							<h3> Fees</h3>
+						</div>
+					</a>
 
-					<a href="Student_routine.php"><div class="nav-option option">
-						<img src=
-"image/Routine_icon.png"
-							class="nav-img"
-							alt="blog">
-						<h3 class="menutext"> Routine</h3>
-					</div></a>
+					<a href="Student_routine.php">
+						<div class="nav-option option">
+							<img src="image/Routine_icon.png" class="nav-img" alt="blog">
+							<h3 class="menutext"> Routine</h3>
+						</div>
+					</a>
 
-					<a href="student_setting.php"><div class="nav-option option">
-						<img src=
-"image/Setting_icon.png"
-							class="nav-img"
-							alt="settings">
-						<h3 class="menutext"> Settings</h3>
-					</div></a>
+					<a href="student_setting.php">
+						<div class="nav-option option">
+							<img src="image/Setting_icon.png" class="nav-img" alt="settings">
+							<h3 class="menutext"> Settings</h3>
+						</div>
+					</a>
 
-					<a href="student_logout.php"><div class="nav-option logout">
-						<img src=
-"image/Logout_icon.png"
-							class="nav-img"
-							alt="logout">
-						<h3 class="menutext">Logout</h3>
-					</div></a>
+					<a href="student_logout.php">
+						<div class="nav-option logout">
+							<img src="image/Logout_icon.png" class="nav-img" alt="logout">
+							<h3 class="menutext">Logout</h3>
+						</div>
+					</a>
 
 				</div>
 			</nav>
@@ -140,104 +132,104 @@
 				</div>
 
 				<div style="overflow-x: auto;">
-				<table>
-					<tr>
-					<th>Student Admited</th>
-					<th>Open</th>
-					<th>OBC</th>
-					<th>TFWS</th>
-					<th>SC/ST</th>
-					<th>DTNT</th>
-					<th>SBC</th>
-					<th>J&K</th>
-					</tr>
-					<tr>
-					<td>Tuition Fees</td>
-					<td>1,03,090</td>
-					<td>51,545</td>
-					<td>-</td>
-					<td>-</td>
-					<td>-</td>
-					<td>-</td>
-					<td>20,000</td>
-					</tr>
-					<tr>
-					<td>Development Fees</td>
-					<td>10,310</td>
-					<td>10,310</td>
-					<td>10,310</td>
-					<td>-</td>
-					<td>10,310</td>
-					<td>10,310</td>
-					<td>4000</td>
-					
-					</tr>
-					<tr>
-					<td>Gymkhana</td>
-					<td>200</td>
-					<td>200</td>
-					<td>200</td>
-					<td>200</td>
-					<td>200</td>
-					<td>200</td>
-					<td>200</td>
-					</tr>
-					
-					<tr>
-					<td>E-charges</td>
-					<td>50</td>
-					<td>50</td>
-					<td>50</td>
-					<td>50</td>
-					<td>50</td>
-					<td>50</td>
-					<td>50</td>
-					</tr>
-					
-					<tr>
-					<td>Ashwamedh</td>
-					<td>30</td>
-					<td>30</td>
-					<td>30</td>
-					<td>30</td>
-					<td>30</td>
-					<td>30</td>
-					<td>30</td>
-					</tr>
-					
-					<tr>
-					<td>Disaster Relief Fund</td>
-					<td>10</td>
-					<td>10</td>
-					<td>10</td>
-					<td>10</td>
-					<td>10</td>
-					<td>10</td>
-					<td>10</td>
-					</tr>
-					
-					<tr>
-					<td>Cultural Activies</td>
-					<td>6</td>
-					<td>6</td>
-					<td>6</td>
-					<td>6</td>
-					<td>6</td>
-					<td>6</td>
-					<td>6</td>
-					</tr>
-					
-					<tr>
-					<td>Total ***</td>
-					<td> 1,13,696</td>
-					<td>62,151</td>
-					<td> 10,606</td>
-					<td>296</td>
-					<td> 10,606</td>
-					<td> 10,606</td>
-					<td> 24,296</td>
-					</tr>
-				</table>
+					<table>
+						<tr>
+							<th>Student Admited</th>
+							<th>Open</th>
+							<th>OBC</th>
+							<th>TFWS</th>
+							<th>SC/ST</th>
+							<th>DTNT</th>
+							<th>SBC</th>
+							<th>J&K</th>
+						</tr>
+						<tr>
+							<td>Tuition Fees</td>
+							<td>1,03,090</td>
+							<td>51,545</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>-</td>
+							<td>20,000</td>
+						</tr>
+						<tr>
+							<td>Development Fees</td>
+							<td>10,310</td>
+							<td>10,310</td>
+							<td>10,310</td>
+							<td>-</td>
+							<td>10,310</td>
+							<td>10,310</td>
+							<td>4000</td>
+
+						</tr>
+						<tr>
+							<td>Gymkhana</td>
+							<td>200</td>
+							<td>200</td>
+							<td>200</td>
+							<td>200</td>
+							<td>200</td>
+							<td>200</td>
+							<td>200</td>
+						</tr>
+
+						<tr>
+							<td>E-charges</td>
+							<td>50</td>
+							<td>50</td>
+							<td>50</td>
+							<td>50</td>
+							<td>50</td>
+							<td>50</td>
+							<td>50</td>
+						</tr>
+
+						<tr>
+							<td>Ashwamedh</td>
+							<td>30</td>
+							<td>30</td>
+							<td>30</td>
+							<td>30</td>
+							<td>30</td>
+							<td>30</td>
+							<td>30</td>
+						</tr>
+
+						<tr>
+							<td>Disaster Relief Fund</td>
+							<td>10</td>
+							<td>10</td>
+							<td>10</td>
+							<td>10</td>
+							<td>10</td>
+							<td>10</td>
+							<td>10</td>
+						</tr>
+
+						<tr>
+							<td>Cultural Activies</td>
+							<td>6</td>
+							<td>6</td>
+							<td>6</td>
+							<td>6</td>
+							<td>6</td>
+							<td>6</td>
+							<td>6</td>
+						</tr>
+
+						<tr>
+							<td>Total ***</td>
+							<td> 1,13,696</td>
+							<td>62,151</td>
+							<td> 10,606</td>
+							<td>296</td>
+							<td> 10,606</td>
+							<td> 10,606</td>
+							<td> 24,296</td>
+						</tr>
+					</table>
 				</div>
 			</div>
 		</div>
@@ -245,4 +237,5 @@
 
 	<script src="./index.js"></script>
 </body>
+
 </html>
